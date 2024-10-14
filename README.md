@@ -47,15 +47,15 @@ VALUES (8, 'Psicólogo', 9, 50, 13000, 72);
 INSERT INTO profissao (id, profissao, experiencia_anos, projetos_completos, horas_trabalhadas, produtividade) 
 VALUES (9, 'Enfermeiro', 6, 80, 14000, 74);
 
--- Inserir dados com erro corrigido
+ Inserir dados com erro corrigido
 INSERT INTO profissao (id, profissao, experiencia_anos, projetos_completos, horas_trabalhadas, produtividade) 
 VALUES (10, 'Consultor', 5, 40, 10000, 65);
 
--- Selecionar todos os registros da tabela profissao
+ Selecionar todos os registros da tabela profissao
 SELECT * FROM profissao;
 
--- Excluir o registro onde id = 2 (Médico)
+ Excluir o registro onde id = 2 (Médico)
 DELETE FROM profissao WHERE id = 2;
 
--- Atualizar os anos de experiência do Engenheiro (id = 1)
+ Atualizar os anos de experiência do Engenheiro (id = 1)
 UPDATE profissao SET experiencia_anos = 18 WHERE id = 1;
